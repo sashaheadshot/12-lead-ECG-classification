@@ -1,0 +1,14 @@
+#DX count
+
+sinus rhythm # Dx: 426783006 = 10629 files
+right bundle branch block # Dx: 59118001 = 2090 files
+atrial fibrillation # Dx: 164889003 = 2033 files
+myocardial infarction # Dx: 164865005 = 4904 files
+myocardial ischemia # Dx: 164861001 = 2389 files
+nonspecific st t abnormality # Dx: 428750005 = 2201 files
+ventricular ectopics # Dx: 164884008 = 1127 files
+1st degree av block # Dx: 270492004 = 1309 files
+t wave abnormal # Dx: 164934002 = 1650 files
+sinus bradycardia # Dx: 426177001 = 1066 files
+left axis deviation # Dx: 39732003 = 1788 files
+left ventricular hypertrophy # Dx: 164873001 = 1492 files

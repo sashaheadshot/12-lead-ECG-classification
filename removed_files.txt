@@ -1,0 +1,13 @@
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR10446.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR13378.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR13429.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR15164.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR16273.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR16711.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR17091.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR17626.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR18827.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR19054.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\HR19140.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\Q0400.mat
+E:\Coding\Jupyter_files\ECG\Data_saves\Filtered_data\Q2961.mat
