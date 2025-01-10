@@ -82,9 +82,6 @@ for _, row in labels_df.iterrows():
             combined_feature.extend(rmssd)
             combined_feature.extend(pnn60)
 
-
-
-            # Store the combined features and label
             hc_features.append(combined_feature)
             labels_list.append(label)
 
