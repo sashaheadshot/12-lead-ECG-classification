@@ -279,7 +279,7 @@ precision = precision_score(all_labels, all_preds, average='micro')
 recall = recall_score(all_labels, all_preds, average='micro')
 f1 = f1_score(all_labels, all_preds, average='micro')
 
-# Print final results
+# Results
 print(f'Final Results after Training:')
 print(f'Accuracy: {accuracy:.4f}')
 print(f'Precision: {precision:.4f}')
