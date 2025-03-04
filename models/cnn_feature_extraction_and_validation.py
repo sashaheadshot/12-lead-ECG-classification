@@ -58,9 +58,9 @@ batch_size = 32
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-class SimplifiedVGG16_1D(nn.Module):
+class Simplified_CNN(nn.Module):
     def __init__(self, num_classes, feature_size=256):
-        super(SimplifiedVGG16_1D, self).__init__()
+        super(Simplified_CNN, self).__init__()
         self.features = nn.Sequential(
             nn.Conv1d(12, 32, kernel_size=3, stride=1, padding=1),
             nn.ReLU(inplace=True),
@@ -103,7 +103,7 @@ class SimplifiedVGG16_1D(nn.Module):
 
 
 num_classes = len(labels_df.columns) - 1
-model = SimplifiedVGG16_1D(num_classes=num_classes).to(device)
+model = Simplified_CNN(num_classes=num_classes).to(device)
 criterion = nn.BCEWithLogitsLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.00001)
 scheduler = ReduceLROnPlateau(optimizer, 'min', patience=5, factor=0.5)
