@@ -1,7 +1,7 @@
 # Hybrid Feature Extraction for 12-Lead ECG Classification by Integrating Handcrafted and Deep Learning Techniques
 
 ## Workflow overview
-!Images/pipeline.drawio.png
+![Pipeline](Images/pipeline.drawio.png)
 
 The [dataset](//physionet.org/content/challenge-2020/1.0.2/) is available on Physionet 2020 Cardiology Challenge page
 
@@ -35,7 +35,7 @@ Applying Bandpass Filter will get rid of the noise and unwanted frequencies this
 Open bandpass_filter.ipnb, load the data from ../Reshaped_data using the data_loader_mat.py. After the filter is applied and the filtered signals are stored in a dictionary we can 
 save them to a directory. Use data_saver.py to save the filtered data to ../Filtered_data
 
-![signals_combined](https://github.com/user-attachments/assets/5bad204f-37a0-456a-924d-120e7ba3db1c)
+![signals combined](Images/signals_combined.jpg)
 
 ## Data labeling
 Open labeling_numeric_classes.ipynb. As the main directory path use ../Selected_data because it contains .hea files which will tell us what label to assign to each ECG signal.
@@ -45,7 +45,7 @@ After that the labels will be saved in a .csv file on your PC.
 First we will have to clean the dataset and remove the corrupted signals that can't be used in feature extraction. Run remove_files.py and Removing_NaN_signals.py respectively. 
 After it is done we can proceed with QRSTP peaks extraction from the signal. Features_extraction_QRSTP.py will extract the frequency doemain features and store them in a .json file.
 
-![ecg_peaks_plot](https://github.com/user-attachments/assets/da46f631-66e4-470e-9ad8-fb3e87c31854)
+![ecg_peaks_plot](Images/ecg_peaks_plot.png)
 
 Afterwards, we can proceed with the time domain features extraction throught the Feature_extractions_RR_interval_time_domain.py. Earlier exractred R-peaks will be used for that. 
 
