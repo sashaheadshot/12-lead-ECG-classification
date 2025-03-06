@@ -1,7 +1,7 @@
 # Hybrid Feature Extraction for 12-Lead ECG Classification by Integrating Handcrafted and Deep Learning Techniques
 
 ## Workflow overview
-![1 drawio](https://github.com/user-attachments/assets/dfefc059-61b9-4d82-b844-5e216c63b562)
+!Images/pipeline.drawio.png
 
 The [dataset](//physionet.org/content/challenge-2020/1.0.2/) is available on Physionet 2020 Cardiology Challenge page
 
